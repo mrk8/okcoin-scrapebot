@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "ScrapeBot - Okcoin",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.okcoin.com/market.do"
+      ],
+      "js": ["jquery-1.11.2.min.js","content.js"]
+    }
+  ]
+	
+}
